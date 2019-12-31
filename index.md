@@ -2,122 +2,45 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Hi! My name is Darren Hsu. I'm a Ph.D. student at Northwestern University. I use X-ray techniques (scattering and spectroscopy) to understand what happens in proteins and small molecules. I am also interested in a career in data science. 
 
-[Link to another page](./another-page.html).
+This webpage provides links to my projects:
 
-There should be whitespace between paragraphs.
+1. ["Plover" Bird Identification Web App](#"Plover"-Bird-Identification-Web-App)
+1. [X-ray Scattering Signal Guided Molecular Dynamics Simulation](#X-ray-Scattering-Signal-Guided-Molecular-Dynamics-Simulation)
+1. [My Publications](#Publications)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## "Plover" Bird Identification Web App
 
-# Header 1
+<a href="https://www.plover-birdid.com/" target="_blank"><img src="./assets/images/plover.png"></a>
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+<!-- [Cropping](./assets/images/plover.png) -->
 
-## Header 2
+**Keywords: Data Science, Neural Network, Object Classification, Python, Full Stack Development**
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+For the project website, click <a href="https://www.plover-birdid.com/" target="_blank">here</a>. 
+For the Github repo, click <a href="https://github.com/ACiDS-NU/birdid" target="_blank">here</a>.
 
-### Header 3
+For this web app, I trained a convolutional neural network (CNN) to identify 400 common North American birds using the NAbirds dataset. You can upload a bird photo and try it out!
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## X-ray Scattering Signal Guided Molecular Dynamics Simulation
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+**Keywords: Molecular Dynamics, CUDA C, GPU, X-ray Scattering**
 
-#### Header 4
+For the Github repo, click <a href="https://github.com/darrenjhsu/XSNAMD" target="_blank">here</a>
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+This is my Ph.D. project where we try to guide the protein motions in molecular dynamics (MD) simulations using the data we measured, which is time-resolved X-ray solution scattering signal (TRXSS) of proteins. 
 
-##### Header 5
+The TRXSS signal reflects changes in the atomic distance distribution, which can be modeled with the Debye formula. However Debye formula is very expensive so I had to develop GPU code 
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+## Publications
 
-###### Header 6
+I'm listing my publications in case you're interested in my Ph.D. work in Chemistry.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+<ol reversed> 
+  <li>Darren Hsu, Denis Lechshev, Dolev Rimmerman, Jiyun Hong, Matthew Kelley, Irina Kosheleva, Xiaoyi Zhang and Lin Chen.  X-ray Snapshots of Protein Folding Reveal Global Conformational Influence on Active Site Ligation. Chem. Sci., 2019, 10, 9788-9800</li>
+  <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Baxter Abraham, Irina Kosheleva, Robert Henning and Lin Chen.  Revealing Fast Structural Dynamics in pH-Responsive Peptides with Time-Resolved X-ray Scattering. J. Phys. Chem. B 2019, 123, 9, 2016-2021.</li>
+  <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Baxter Abraham, Robert Henning, Irina Kosheleva and Lin Chen.  Probing Cytochrome c Folding Transitions Upon Photo-Triggered Environmental Perturbations Using Time-Resolved X-Ray Scattering. J. Phys. Chem. B 2018, 122, 20, 5218-5224.</li>
+  <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Baxter Abraham, Irina Kosheleva, Robert Henning and Lin Chen. Insulin hexamer dissociation dynamics revealed by photoinduced T-jumps and time-resolved X-ray solution scattering. Photochem. Photobiol. Sci. 2018, 17, 874-882.</li>
+  <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Irina Kosheleva and Lin Chen. Direct Observation of Insulin Association Dynamics with Time-Resolved X-ray Scattering. J. Phys. Chem. Lett. 2017, 8, 4413-4418.</li>
+</ol>
