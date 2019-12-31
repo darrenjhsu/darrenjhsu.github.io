@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Info for workday</title>
+</head>
+<body>
+	<h1>Daily info for workday prep</h1>
+	<div id="weatherSection">
+		<h2>Weather for Wilmette</h2>
+
+		<div id="theWeather"></div>
+	</div>
+	<div id="metraSection">
+		<h2>Next trains to Ogilvie</h2>
+		<div id="theMetra"></div>
+	</div>
+	<script src="src/script.js"></script>
+
+	<script>
+      function initMap() {
+        var directionsService = new google.maps.DirectionsService();
+        const theMetra = document.getElementById('theMetra')
+        directionsService.route(
+            {
+              origin: {query: 'Wilmette Metra Station, IL'},
+              destination: {query: 'Ogilvie Transportation Center'},
+              travelMode: 'TRANSIT',
+              provideRouteAlternatives: true,
+              transitOptions: {
+              	modes: ['TRAIN'],
+              	// departureTime: new Date(1577454306000)
+              },
+            },
+        	function(response, status) {
+        		if (status == 'OK') {
+        			console.log(response.routes)
+        			response.routes.forEach(route => {
+      					const NextWilmette = document.createElement('h3')
+      					NextWilmette.textContent = 'Next train(s) from Wilmette: ' + route.legs[0].departure_time.text
+      					theMetra.appendChild(NextWilmette)
+      				})
+        		}
+        	});
+        directionsService.route(
+            {
+              origin: {query: 'Davis Metra Station, Evanston, IL'},
+              destination: {query: 'Ogilvie Transportation Center'},
+              travelMode: 'TRANSIT',
+              provideRouteAlternatives: true,
+              transitOptions: {
+              	modes: ['TRAIN'],
+              	// departureTime: new Date(1577454306000)
+              },
+            },
+        	function(response, status) {
+        		if (status == 'OK') {
+        			console.log(response.routes)
+        			response.routes.forEach(route => {
+      					const NextDavis = document.createElement('h3')
+      					NextDavis.textContent = 'Next train(s) from Davis: ' + route.legs[0].departure_time.text
+      					theMetra.appendChild(NextDavis)
+      				})
+        		}
+        	});
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEacIfwjorlvmUej60p1VjWwB9n0davbE&language=en&callback=initMap">
+    </script>
+
+
+</body>
+</html>
