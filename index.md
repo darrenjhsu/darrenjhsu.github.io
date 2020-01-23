@@ -12,11 +12,13 @@ This webpage provides links to my projects:
 
 ## "Plover" Bird Identification Web App
 
+**Keywords: Data Science, Neural Network, Object Classification, Python, Full Stack Development**
+
 <a href="https://www.plover-birdid.com/" target="_blank"><img src="./assets/images/plover.png"></a>
 
 <!-- [Cropping](./assets/images/plover.png) -->
 
-**Keywords: Data Science, Neural Network, Object Classification, Python, Full Stack Development**
+
 
 For the project website, click <a href="https://www.plover-birdid.com/" target="_blank">here</a>. 
 For the Github repo, click <a href="https://github.com/ACiDS-NU/birdid" target="_blank">here</a>.
@@ -29,7 +31,7 @@ For this web app, I trained a convolutional neural network (CNN) to identify 400
 
 For the Github repo, click <a href="https://github.com/darrenjhsu/XSNAMD" target="_blank">here</a>.
 
-This is my Ph.D. project where we try to guide the protein motions in molecular dynamics (MD) simulations using the data we measured, which is time-resolved X-ray solution scattering signal (TRXSS) of proteins. 
+This is my Ph.D. project where we try to guide the protein motions in molecular dynamics (MD) simulations using the data we collected, which is time-resolved X-ray solution scattering signal (TRXSS) of proteins. 
 
 The TRXSS signal reflects changes in the atomic distance distribution, which can be modeled with the Debye formula. However Debye formula is very expensive (proportional to number of scatterers squared) so I developed GPU code to do parallel computing, giving it a 12,000x boost in efficiency.
 
