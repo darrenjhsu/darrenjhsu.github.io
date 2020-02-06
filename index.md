@@ -2,13 +2,38 @@
 layout: default
 ---
 
-Hi! My name is Darren Hsu. I'm a Ph.D. student at Northwestern University. I use X-ray techniques (scattering and spectroscopy) to understand what happens in proteins and small molecules. I am also interested in a career in data science. 
+Hi! My name is Darren Hsu. I'm a Ph.D. student at Northwestern University. I use X-ray techniques (scattering and spectroscopy) to understand what happens in proteins and small molecules when they are perturbed by an environmental change. I am also interested in a career in data science and birding. 
 
 This webpage provides links to my projects:
 
-1. "Plover" Bird Identification Web App
-1. X-ray Scattering Signal Guided Molecular Dynamics Simulation
+1. Ph.D. Research Summary
+1. X-ray Scattering Signal-Guided Molecular Dynamics Simulation
+1. Side project: "Plover" Bird Identification Web App
 1. My Publications
+
+## Ph.D. Research summary
+
+During my Ph.D. I have been working with Prof. Lin Chen at Northwestern University on tracking and characterizing disordered protein structures when they are subject to external excitation, such as light, temperature-jump, pH-jump, or chemical reduction. I did a large part of my research at the Advanced Photon Source at Argonne National Laboratory, where I utilized the BioCARS beamline for time-resolved X-ray solution scattering, 11-ID-D beamline for X-ray transient absorption spectroscopy, and DND-CAT for small-angle X-ray scattering.
+
+Another part of my research is about how to explain X-ray scattering signal as it is in reciprocal space. One way to do so would be to simulate a lot of protein structures and compare their theoretical X-ray scattering signal to the measured ones. This, however, poses a significant challenge as disordered protein structures are, well, disordered and one has to simulate many structures to find a match to the data. Therefore I decided that I will **actively** find the strucutre that fits the data by minimizing the discrepancy between the simulated and actual signals, in other words the additional potential term resulted from the mismatch in the simulations. This led to the X-ray scattering signal-guided MD simulation project detailed below.
+
+Side projects of my Ph.D. research includes designing an aluminum nitride sample holder that will not be evaporated by the IR-laser we use to generate temperature-jumps, a co-flow capillary that minimizes sample consumption, and an X-ray emission spectrometer in hopes of getting bonus signal alongside an X-ray scattering experiment. 
+
+Synchrotron/X-ray free electron laser (XFEL) experiments cannot be done by one person, so I have participated in many experiments that concern small molecules (vibronic coherence in di-platinum complexes, osmium-copper complexes, etc.) as well as self-assembling biomaterials (oleic acid, caseins, etc.). 
+
+Finally, since I like writing codes, I also contribute to the time-resolved X-ray scattering processing package pytrx.
+
+## X-ray Scattering Signal Guided Molecular Dynamics Simulation
+
+**Keywords: Molecular Dynamics, CUDA C, GPU, X-ray Scattering**
+
+For the Github repo, click <a href="https://github.com/darrenjhsu/XSNAMD" target="_blank">here</a>.
+
+This is my Ph.D. project where we try to guide the protein motions in molecular dynamics (MD) simulations using the data we collected, which is time-resolved X-ray solution scattering signal (TRXSS) of proteins. 
+
+The TRXSS signal reflects changes in the atomic distance distribution, which can be modeled with the Debye formula. However Debye formula is very expensive (proportional to number of scatterers squared) so I developed GPU code to do parallel computing, giving it a 12,000x boost in efficiency.
+
+A publication is being prepared. 
 
 ## "Plover" Bird Identification Web App
 
@@ -25,17 +50,6 @@ For the Github repo, click <a href="https://github.com/ACiDS-NU/birdid" target="
 
 For this web app, I trained a convolutional neural network (CNN) to identify 400 common North American birds using the NAbirds dataset. You can upload a bird photo and try it out!
 
-## X-ray Scattering Signal Guided Molecular Dynamics Simulation
-
-**Keywords: Molecular Dynamics, CUDA C, GPU, X-ray Scattering**
-
-For the Github repo, click <a href="https://github.com/darrenjhsu/XSNAMD" target="_blank">here</a>.
-
-This is my Ph.D. project where we try to guide the protein motions in molecular dynamics (MD) simulations using the data we collected, which is time-resolved X-ray solution scattering signal (TRXSS) of proteins. 
-
-The TRXSS signal reflects changes in the atomic distance distribution, which can be modeled with the Debye formula. However Debye formula is very expensive (proportional to number of scatterers squared) so I developed GPU code to do parallel computing, giving it a 12,000x boost in efficiency.
-
-A publication is coming. 
 
 ## Publications
 
