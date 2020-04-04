@@ -54,7 +54,9 @@ Ppos = getProteinPosition()
 distList = []
 for frame in range(5000):
   Wpos = getWaterPosition()
-  distList.append(np.min(np.sqrt(((Wpos[:, :, None] - Ppos[:, :, None].T) ** 2).sum(1)),axis=1))
+  distList.append(np.min(np.sqrt(
+      ((Wpos[:, :, None] - Ppos[:, :, None].T) ** 2).sum(1)),axis=1)
+    )
 ```
 
 ## Approach 4: Using numba to leverage parallelism
