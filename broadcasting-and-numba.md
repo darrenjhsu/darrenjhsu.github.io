@@ -162,6 +162,8 @@ def WPFunction_parallel(Wpos, Ppos):
   return distList
 ```
 
-This code runs at 5.9 ms / frame excluding compile time using all cores. We've come all the way from 14 s / frame down to this, an increase of 2400x in speed! This shows how it is possible to optimize the code and achieve amazing efficiency.
+This code runs at 5.9 ms / frame using all cores, excluding compile time. We've come all the way from 14 s / frame down to this, an increase of 2400x in speed! This shows how it is possible to optimize the code and achieve amazing efficiency.
+
+Note: If the system size (number of water and protein atoms) grow, the difference in speed between Approach 5 and 5+1 becomes smaller as the former is starting to use all CPU resources for that increasingly large calculation.
 
 [back](./)
