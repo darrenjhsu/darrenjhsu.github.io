@@ -117,7 +117,7 @@ Ppos = getProteinPosition()
 distList = []
 for frame in range(5000):
   Wpos = getWaterPosition()
-  distList.append(WPFunction(Wpos, Ppos))
+  distList.append(WPFunction_parallel(Wpos, Ppos))
 
 @njit(parallel=True)
 def WPFunction_parallel(Wpos, Ppos):
