@@ -53,11 +53,12 @@ Finally, since I like writing codes, I also contribute to the time-resolved X-ra
 I'm listing my publications in case you're interested in my Ph.D. work in Chemistry.
 
 <ol reversed> 
-  <li>Darren Hsu, Denis Lechshev, Dolev Rimmerman, Jiyun Hong, Matthew Kelley, Irina Kosheleva, Xiaoyi Zhang and Lin Chen.  X-ray Snapshots of Protein Folding Reveal Global Conformational Influence on Active Site Ligation. Chem. Sci., 2019, 10, 9788-9800</li>
-  <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Baxter Abraham, Irina Kosheleva, Robert Henning and Lin Chen.  Revealing Fast Structural Dynamics in pH-Responsive Peptides with Time-Resolved X-ray Scattering. J. Phys. Chem. B 2019, 123, 9, 2016-2021.</li>
-  <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Baxter Abraham, Robert Henning, Irina Kosheleva and Lin Chen.  Probing Cytochrome c Folding Transitions Upon Photo-Triggered Environmental Perturbations Using Time-Resolved X-Ray Scattering. J. Phys. Chem. B 2018, 122, 20, 5218-5224.</li>
-  <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Baxter Abraham, Irina Kosheleva, Robert Henning and Lin Chen. Insulin hexamer dissociation dynamics revealed by photoinduced T-jumps and time-resolved X-ray solution scattering. Photochem. Photobiol. Sci. 2018, 17, 874-882.</li>
-  <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Irina Kosheleva and Lin Chen. Direct Observation of Insulin Association Dynamics with Time-Resolved X-ray Scattering. J. Phys. Chem. Lett. 2017, 8, 4413-4418.</li>
+  <li>Allison Devitt, <b>Darren J. Hsu</b>, Jos van den Eijnde, Michael B. Blayney, Rachel D. Dicken.  Literature Highlights. <i>ACS Chemical Health & Safety</i>, <b>2020</b> , <i>27</i>, 2, 83-85 </li>
+  <li><b>Darren Hsu</b>, Denis Lechshev, Dolev Rimmerman, Jiyun Hong, Matthew Kelley, Irina Kosheleva, Xiaoyi Zhang and Lin Chen.  X-ray Snapshots of Protein Folding Reveal Global Conformational Influence on Active Site Ligation. Chem. Sci., 2019, 10, 9788-9800</li>
+  <li>Dolev Rimmerman, Denis Lechshev, <b>Darren Hsu</b>, Jiyun Hong, Baxter Abraham, Irina Kosheleva, Robert Henning and Lin Chen.  Revealing Fast Structural Dynamics in pH-Responsive Peptides with Time-Resolved X-ray Scattering. J. Phys. Chem. B 2019, 123, 9, 2016-2021.</li>
+  <li>Dolev Rimmerman, Denis Lechshev, <b>Darren Hsu</b>, Jiyun Hong, Baxter Abraham, Robert Henning, Irina Kosheleva and Lin Chen.  Probing Cytochrome c Folding Transitions Upon Photo-Triggered Environmental Perturbations Using Time-Resolved X-Ray Scattering. J. Phys. Chem. B 2018, 122, 20, 5218-5224.</li>
+  <li>Dolev Rimmerman, Denis Lechshev, <b>Darren Hsu</b>, Jiyun Hong, Baxter Abraham, Irina Kosheleva, Robert Henning and Lin Chen. Insulin hexamer dissociation dynamics revealed by photoinduced T-jumps and time-resolved X-ray solution scattering. Photochem. Photobiol. Sci. 2018, 17, 874-882.</li>
+  <li>Dolev Rimmerman, Denis Lechshev, <b>Darren Hsu</b>, Jiyun Hong, Irina Kosheleva and Lin Chen. Direct Observation of Insulin Association Dynamics with Time-Resolved X-ray Scattering. J. Phys. Chem. Lett. 2017, 8, 4413-4418.</li>
 </ol>
 
 
