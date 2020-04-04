@@ -34,19 +34,20 @@ This is my Ph.D. project where we try to guide the protein motions in molecular 
 
 The TRXSS signal reflects changes in the atomic distance distribution, which can be modeled with the Debye formula. However Debye formula is very expensive (proportional to number of scatterers squared) so I developed GPU code to do parallel computing, giving it a 12,000x boost in efficiency.
 
-A manuscript is submitted. 
+A manuscript is submitted for this project.
 
 ## Ph.D. Research summary
 
 During my Ph.D. I have been working with Prof. Lin Chen at Northwestern University on tracking and characterizing disordered protein structures when they are subject to external excitation, such as light, temperature-jump, pH-jump, or chemical reduction. I did a large part of my research at the Advanced Photon Source at Argonne National Laboratory, where I utilized the BioCARS beamline for time-resolved X-ray solution scattering, 11-ID-D beamline for X-ray transient absorption spectroscopy, and DND-CAT for small-angle X-ray scattering.
 
-Another part of my research is about how to explain X-ray scattering signal as it is in reciprocal space. One way to do so would be to simulate a lot of protein structures and compare their theoretical X-ray scattering signal to the measured ones. This, however, poses a significant challenge as disordered protein structures are, well, disordered and one has to simulate many structures to find a match to the data. Therefore I decided that I will **actively** find the strucutre that fits the data by minimizing the discrepancy between the simulated and actual signals, in other words the additional potential term resulted from the mismatch in the simulations. This led to the X-ray scattering signal-guided MD simulation project detailed below.
+Another part of my research is about how to explain X-ray scattering signal as it is in reciprocal space. One way to do so would be to simulate a lot of protein structures and compare their theoretical X-ray scattering signal to the measured ones. This, however, poses a significant challenge as disordered protein structures are, well, disordered and one has to simulate many structures to find a match to the data. Therefore I decided that I will **actively** find the strucutre that fits the data by minimizing the discrepancy between the simulated and actual signals, in other words the additional potential term resulted from the mismatch in the simulations. This led to the X-ray scattering signal-guided MD simulation project detailed above.
 
 Side projects of my Ph.D. research includes designing an aluminum nitride sample holder that will not be evaporated by the IR-laser we use to generate temperature-jumps, a co-flow capillary that minimizes sample consumption, and an X-ray emission spectrometer in hopes of getting bonus signal alongside an X-ray scattering experiment. 
 
 Synchrotron/X-ray free electron laser (XFEL) experiments cannot be done by one person, so I have participated in many experiments that concern small molecules (vibronic coherence in di-platinum complexes, osmium-copper complexes, etc.) as well as self-assembling biomaterials (oleic acid, caseins, etc.). 
 
 Finally, since I like writing codes, I also contribute to the time-resolved X-ray scattering processing package pytrx.
+
 
 ## Publications
 

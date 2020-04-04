@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Minimal distance between two points of groups
+## Minimal distance between two points of two groups
 
 Somewhere in my research I encountered this interesting problem: I have a large group of atoms A, and another, smaller group of atoms B. I want to find, for each atom of A, the closest distance to any B. To add a bit of context, group A is water (6325 oxygen atoms), and group B is protein atoms (304 atoms). To add complexity, I have 5000 frames from a trajectory, where water can move but protein is fixed.
 
