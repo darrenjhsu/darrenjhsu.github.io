@@ -166,6 +166,6 @@ This code runs at 5.9 ms / frame using all cores, excluding compile time. We've 
 
 Note: If the system size (number of water and protein atoms) grow, the difference in speed between Approach 5 and 5+1 becomes smaller as the former is starting to use all CPU resources for that increasingly large calculation.
 
-Note 2: Another way of doing this problem is to use a kd-tree (`scipy.spatial.cKDTree`) whose speed is similar to Approach 5. However, my original goal is to find the closest distance to van der Waals (vdW) surfaces (some element-specific radii from the atom center), so kd-tree is not a good way to do so. In these approaches, we can calculate that distance by subtracting vdW distances from the `dist`.
+Note 2: Another way of doing this problem is to use a kd-tree (`scipy.spatial.cKDTree`) whose speed is similar to Approach 5. However, my original goal is to find the closest distance to van der Waals (vdW) surfaces (some element-specific radii from the atom center), so kd-tree is not a good way to do so. In these approaches, we can calculate that distance by subtracting vdW radii from the `dist`.
 
 [back](./)
