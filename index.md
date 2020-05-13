@@ -56,7 +56,7 @@ Miscellaneous: [Find the closest point in A set for every point in B set](/broad
 I'm listing my publications in case you're interested in my Ph.D. work in Chemistry.
 
 <ol reversed> 
-  <li>Darren J. Hsu}, Denis Leshchev, Irina Kosheleva, Kevin L. Kohlstedt and Lin X. Chen.  Integrating solvation shell structure in experimentally driven molecular dynamics using X-ray solution scattering data. J. Chem. Phys., Accepted</li>
+  <li>Darren J. Hsu, Denis Leshchev, Irina Kosheleva, Kevin L. Kohlstedt and Lin X. Chen.  Integrating solvation shell structure in experimentally driven molecular dynamics using X-ray solution scattering data. J. Chem. Phys., Accepted</li>
   <li>Allison Devitt, Darren J. Hsu, Jos van den Eijnde, Michael B. Blayney, Rachel D. Dicken.  Literature Highlights. ACS Chemical Health & Safety, 2020, 27, 2, 83-85 </li>
   <li>Darren Hsu, Denis Lechshev, Dolev Rimmerman, Jiyun Hong, Matthew Kelley, Irina Kosheleva, Xiaoyi Zhang and Lin Chen.  X-ray Snapshots of Protein Folding Reveal Global Conformational Influence on Active Site Ligation. Chem. Sci., 2019, 10, 9788-9800</li>
   <li>Dolev Rimmerman, Denis Lechshev, Darren Hsu, Jiyun Hong, Baxter Abraham, Irina Kosheleva, Robert Henning and Lin Chen.  Revealing Fast Structural Dynamics in pH-Responsive Peptides with Time-Resolved X-ray Scattering. J. Phys. Chem. B 2019, 123, 9, 2016-2021.</li>
